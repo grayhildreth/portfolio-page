@@ -1,34 +1,26 @@
-# _SASS Template_
+# _Gray Hildreth - Portfolio_
 
 
-#### By _Gray Hildreth and Garrett Price_
-
-
+#### By _Gray Hildreth_
 
 ## Description
 
-_Template for Sass project_
-
-## Setup/Installation Requirements
-
-* _Copy the repository from GitHub_
-* _Open in code editor of your choice_
+_Portfolio of web development work, and other creative interests._
 
 ## Support and contact details
 
-For questions, concerns, or suggestions please email garrettleeprice@gmail.com
-
-
-## Known Bugs
-
+_Please contact grayhildreth@gmail.com with any questions, or concerns._
 
 ## Technologies Used
 
 * HTML5
-* CSSS (sass)
+* CSS
+* SASS
+* Flexbox
+* JavaScript
 
 ## Licensing
 
 * MIT
 
-Copyright (c) 2016 **_Garrett Price_**
+Copyright (c) 2016 **_Gray Hildreth_**
