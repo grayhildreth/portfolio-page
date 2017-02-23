@@ -1,3 +1,134 @@
+body, p, h1, h2, h3, h4, ul, li {
+  margin: 0;
+  padding: 0; }
 
+body {
+  margin: 0;
+  padding: 0; }
+
+#nav-container > nav > ul {
+  list-style-type: none; }
+
+/* NAVIGATION */
+#nav-background {
+  position: fixed;
+  top: 0;
+  z-index: 9000;
+  width: 100%;
+  background-color: #d8ffdf; }
+
+#nav-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  letter-spacing: 3px;
+  font-family: 'cardo'; }
+
+#nav-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+#nav-logo {
+  margin-left: 1em;
+  color: #444;
+  text-decoration: none;
+  font-family: 'grouch'; }
+
+.nav-ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 700px; }
+
+.nav-ul > li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.nav-link {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #444;
+  text-decoration: none; }
+
+/* END NAVIGATION */
+/* MOBILE MENU */
+@media screen and (max-width: 700px) {
+  #nav-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+
+  #nav-menu-button {
+    padding: 1rem;
+    cursor: pointer; }
+
+  .nav-ul {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow-y: scroll;
+    direction: rtl;
+    max-height: 80vh; }
+
+  .hide-ul {
+    max-height: 0vh; }
+
+  .nav-link {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #f4f4f4; } }
+/* END MOBILE MENU */
+/* DESKTOP MENU */
+@media screen and (min-width: 701px) {
+  #nav-menu-button {
+    display: none; }
+
+  .nav-link {
+    padding: 1rem 1.5rem; } }
+/* This moves the logo so that it's not touching the left side */
+@media screen and (max-width: 1040px) {
+  #nav-logo {
+    margin-left: 1rem; } }
+/* END DESKTOP MENU */
+@font-face {
+  font-family: 'futura light';
+  src: url(fonts/futura_light.ttf); }
+@font-face {
+  font-family: 'futura';
+  src: url(fonts/futura_medium.ttf); }
+@font-face {
+  font-family: 'futura bold';
+  src: url(fonts/futura_bold.ttf); }
+@font-face {
+  font-family: 'grouch';
+  src: url(fonts/grouch.ttf); }
 
 /*# sourceMappingURL=application.css.map */
