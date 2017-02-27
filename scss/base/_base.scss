@@ -1,1 +1,22 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
+body, p, h1, h2, h3, h4, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.portrait {
+  display: flex;
+  height: 95vh;
+  width: 100vw;
+  background-image: url("../img/gray.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
