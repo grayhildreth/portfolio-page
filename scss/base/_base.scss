@@ -11,6 +11,14 @@ body, p, h1, h2, h3, h4, ul, li {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font,
+}
+
+p {
+  font-family: $copy-font;
+}
+
 .portrait {
   display: flex;
   height: 95vh;
@@ -19,4 +27,11 @@ body, p, h1, h2, h3, h4, ul, li {
   background-size: cover;
   background-position: center;
   margin: 0;
+  justify-content: center;
+  align-content: flex-end;
+  img {
+    margin-bottom: 4em;
+    align-self: flex-end;;
+    width: 350px;
+  }
 }

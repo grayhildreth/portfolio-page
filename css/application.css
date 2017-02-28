@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans");
 *,
 *::before,
 *::after {
@@ -9,6 +10,12 @@ body, p, h1, h2, h3, h4, ul, li {
   margin: 0;
   padding: 0; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cardo", serif; }
+
+p {
+  font-family: "Josefin Sans", sans-serif; }
+
 .portrait {
   display: flex;
   height: 95vh;
@@ -16,7 +23,13 @@ body, p, h1, h2, h3, h4, ul, li {
   background-image: url("../img/gray.jpg");
   background-size: cover;
   background-position: center;
-  margin: 0; }
+  margin: 0;
+  justify-content: center;
+  align-content: flex-end; }
+  .portrait img {
+    margin-bottom: 4em;
+    align-self: flex-end;
+    width: 350px; }
 
 #nav-container > nav > ul {
   list-style-type: none; }
@@ -41,7 +54,7 @@ body, p, h1, h2, h3, h4, ul, li {
   -ms-flex-pack: justify;
   justify-content: space-between;
   letter-spacing: 3px;
-  font-family: 'cardo'; }
+  font-family: 'roadway'; }
 
 #nav-header {
   display: -webkit-box;
@@ -130,5 +143,8 @@ body, p, h1, h2, h3, h4, ul, li {
   #nav-logo {
     margin-left: 1rem; } }
 /* END DESKTOP MENU */
+@font-face {
+  font-family: roadway;
+  src: url(fonts/ROADWAY_.ttf); }
 
 /*# sourceMappingURL=application.css.map */
