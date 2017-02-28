@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Bentham");
 *,
 *::before,
 *::after {
@@ -11,10 +11,11 @@ body, p, h1, h2, h3, h4, ul, li {
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cardo", serif; }
+  font-family: "roadway";
+  text-align: center; }
 
 p {
-  font-family: "Josefin Sans", sans-serif; }
+  font-family: "Bentham", serif; }
 
 .portrait {
   display: flex;
@@ -30,6 +31,18 @@ p {
     margin-bottom: 4em;
     align-self: flex-end;
     width: 350px; }
+
+.project {
+  display: flex;
+  justify-content: center; }
+  .project img {
+    max-width: 80%;
+    max-height: auto;
+    margin: 2em 0; }
+  .project a {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 #nav-container > nav > ul {
   list-style-type: none; }
