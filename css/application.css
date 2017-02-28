@@ -17,7 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: "Bentham", serif;
-  font-size: 18px; }
+  font-size: 18px;
+  color: #646464; }
 
 .portrait {
   display: flex;
@@ -34,8 +35,22 @@ p {
     align-self: flex-end;
     width: 350px; }
 
-.about p {
-  text-align: center; }
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .about p {
+    text-align: center;
+    margin: 0 3em;
+    text-align: justify;
+    max-width: 700px; }
+
+.about h1 {
+  margin: 3em 0 1em 0; }
+
+.all-projects h1 {
+  margin: 3em 0 1em 0; }
 
 .project {
   display: flex;
@@ -55,20 +70,26 @@ p {
     opacity: 0.8;
     transition: opacity .5s ease-in-out; }
 
+.creative h1 {
+  margin: 3em 0 1em 0; }
+
+.connect h1 {
+  margin: 3em 0 1em 0; }
 .connect p {
-  text-align: center; }
+  text-align: center;
+  font-size: 24px; }
 
 .connect-detail {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 2em 2em; }
+  margin: 2em 4em; }
   .connect-detail a {
     text-decoration: none; }
   .connect-detail img {
     margin-right: 1em; }
   .connect-detail p {
-    color: black; }
+    font-size: 18px; }
 
 .footer {
   display: flex;

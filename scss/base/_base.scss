@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: $copy-font;
   // text-align: center;
-  font-size: 18px
+  font-size: 18px;
+  color: $copy-color;
 }
 
 .portrait {
@@ -42,8 +43,21 @@ p {
 
 // about
 
-  .about p {
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  p {
     text-align: center;
+    margin: 0 3em;
+    text-align: justify;
+    max-width: 700px;
+  }
+}
+
+  .about h1 {
+    margin: 3em 0 1em 0;
   }
 
 // projects
@@ -54,6 +68,11 @@ p {
 //   flex-direction: column;
 //   align-items: center;
 // }
+
+.all-projects h1 {
+  margin: 3em 0 1em 0;
+}
+
 .project {
   display: flex;
   justify-content: center;
@@ -80,11 +99,18 @@ p {
 
 // creative
 
+.creative h1 {
+  margin: 3em 0 1em 0;
+}
 // connect
 
 .connect {
+  h1 {
+    margin: 3em 0 1em 0
+  }
   p {
     text-align: center;
+    font-size: 24px;
   }
 }
 
@@ -92,7 +118,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 2em 2em;
+  margin: 2em 4em;
   a {
     text-decoration: none;
   }
@@ -100,6 +126,6 @@ p {
     margin-right: 1em;
   }
   p {
-    color: black;
+    font-size: 18px;
   }
 }
