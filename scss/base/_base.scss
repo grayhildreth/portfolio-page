@@ -14,10 +14,13 @@ body, p, h1, h2, h3, h4, ul, li {
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 p {
   font-family: $copy-font;
+  text-align: center;
+  font-size: 18px
 }
 
 .portrait {
@@ -50,14 +53,21 @@ p {
 .project {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   img {
     max-width: 80%;
     max-height: auto;
-    margin: 2em 0;
+    // margin: 2em 0;
   }
   a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2em 0;
   }
+}
+
+a img:hover {
+  opacity:0.8;
+  transition: opacity .5s ease-in-out;
 }
