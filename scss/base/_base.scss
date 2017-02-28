@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: $copy-font;
-  text-align: center;
+  // text-align: center;
   font-size: 18px
 }
 
@@ -41,6 +41,10 @@ p {
 }
 
 // about
+
+  .about p {
+    text-align: center;
+  }
 
 // projects
 
@@ -65,9 +69,37 @@ p {
     justify-content: center;
     margin: 2em 0;
   }
+  p {
+    text-align: center;
+  }
+  img:hover {
+    opacity:0.8;
+    transition: opacity .5s ease-in-out;
+  }
 }
 
-a img:hover {
-  opacity:0.8;
-  transition: opacity .5s ease-in-out;
+// creative
+
+// connect
+
+.connect {
+  p {
+    text-align: center;
+  }
+}
+
+.connect-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2em 2em;
+  a {
+    text-decoration: none;
+  }
+  img {
+    margin-right: 1em;
+  }
+  p {
+    color: black;
+  }
 }
