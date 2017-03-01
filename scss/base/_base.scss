@@ -6,15 +6,6 @@
             box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'roadwayregular';
-    src: url('../fonts/roadway_-webfont.woff2') format('woff2'),
-         url('../fonts/roadway_-webfont.woff') format('woff'),
-         url('../fonts/ROADWAY_.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body, p, h1, h2, h3, h4, ul, li {
   margin: 0;
@@ -47,7 +38,7 @@ p {
   align-content: flex-end;
   img {
     margin-bottom: 4em;
-    align-self: flex-end;;
+    align-self: flex-end;
     width: 350px;
   }
 }
@@ -59,6 +50,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 4em;
   p {
     text-align: center;
     margin: 0 3em;
@@ -83,14 +75,20 @@ p {
 //   align-items: center;
 // }
 
-.all-projects h1 {
-  margin: 3em 0 1em 0;
+.all-projects {
+    background-color: #F3F3F3;
+    padding-bottom: 2em;
+  h1 {
+    padding: 3em 0 1em 0;
+  }
 }
 
 .project {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+  margin-bottom: 2em;
   img {
     max-width: 80%;
     max-height: auto;
@@ -103,11 +101,13 @@ p {
     margin: 2em 0;
   }
   p {
-    text-align: center;
+    text-align: left;
+    margin: 0 3em;
+    max-width: 600px;
   }
   h2 {
     font-size: 18px;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
   }
   img:hover {
     opacity:0.8;
@@ -115,6 +115,9 @@ p {
   }
 }
 
+.project-copy {
+  text-align: left;
+}
 // creative
 
 .creative {
@@ -149,20 +152,23 @@ h1 {
 
 .music {
   margin: 2em;
+  padding-bottom: 2em;
   display: flex;
   justify-content: center;
 }
 
 #creative h2 {
   font-size: 18px;
-  margin: 3em 0 0;
+  margin: 4em 0 0;
 }
 
 // connect
 
 .connect {
+  background-color: #F3F3F3;
+  padding-bottom: 2em;
   h1 {
-    margin: 3em 0 1em 0
+    padding: 3em 0 1em 0
   }
   p {
     text-align: center;
@@ -174,7 +180,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 2em 4em;
+  padding: 2em 4em;
   a {
     text-decoration: none;
   }
@@ -189,3 +195,9 @@ h1 {
     }
   }
 }
+
+// sections
+
+// section {
+//   margin: 1em 0;
+// }

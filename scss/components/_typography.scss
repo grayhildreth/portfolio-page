@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bentham');
+
+
+@font-face {
+    font-family: 'roadwayregular';
+    src: url('../fonts/roadway_-webfont.woff2') format('woff2'),
+         url('../fonts/roadway_-webfont.woff') format('woff'),
+         url('../fonts/ROADWAY_.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
