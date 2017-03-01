@@ -45,9 +45,8 @@ p {
     margin: 0 3em;
     text-align: justify;
     max-width: 700px; }
-
-.about h1 {
-  margin: 3em 0 1em 0; }
+  .about h1 {
+    margin: 3em 0 1em 0; }
 
 .all-projects h1 {
   margin: 3em 0 1em 0; }
@@ -70,8 +69,31 @@ p {
     opacity: 0.8;
     transition: opacity .5s ease-in-out; }
 
-.creative h1 {
-  margin: 3em 0 1em 0; }
+.creative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .creative p {
+    text-align: center;
+    margin: 0 3em;
+    text-align: justify;
+    max-width: 700px; }
+  .creative h1 {
+    margin: 3em 0 1em 0; }
+
+.main-carousel {
+  margin-top: 2em; }
+
+.carousel-cell {
+  width: 66%;
+  /* full width */
+  height: 300px;
+  /* height of carousel */
+  margin-right: 10px; }
+  .carousel-cell img {
+    height: auto;
+    width: 100%; }
 
 .connect h1 {
   margin: 3em 0 1em 0; }
