@@ -21,6 +21,9 @@ p {
   color: #646464;
   line-height: 1.35em; }
 
+@media screen and (max-width: 479px) {
+  .portrait img {
+    width: 250px; } }
 .portrait {
   display: flex;
   height: 95vh;
