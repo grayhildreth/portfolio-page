@@ -95,6 +95,11 @@ p {
     height: auto;
     width: 100%; }
 
+.music {
+  margin: 2em;
+  display: flex;
+  justify-content: center; }
+
 .connect h1 {
   margin: 3em 0 1em 0; }
 .connect p {

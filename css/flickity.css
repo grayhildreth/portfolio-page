@@ -128,3 +128,8 @@ http://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 0px;
+}
