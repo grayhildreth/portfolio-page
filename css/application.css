@@ -6,12 +6,17 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+@font-face {
+  font-family: 'roadwayregular';
+  src: url("../fonts/roadway_-webfont.woff2") format("woff2"), url("../fonts/roadway_-webfont.woff") format("woff"), url("../fonts/ROADWAY_.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 body, p, h1, h2, h3, h4, ul, li {
   margin: 0;
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "roadway";
+  font-family: "roadwayregular";
   text-align: center;
   letter-spacing: 5px; }
 
@@ -162,7 +167,7 @@ p {
   -ms-flex-pack: justify;
   justify-content: space-between;
   letter-spacing: 3px;
-  font-family: 'roadway'; }
+  font-family: 'roadwayregular'; }
 
 #nav-header {
   display: -webkit-box;
@@ -251,8 +256,5 @@ p {
   #nav-logo {
     margin-left: 1rem; } }
 /* END DESKTOP MENU */
-@font-face {
-  font-family: roadway;
-  src: url(fonts/ROADWAY_.ttf); }
 
 /*# sourceMappingURL=application.css.map */
