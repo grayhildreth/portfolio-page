@@ -251,9 +251,12 @@ h1 {
 }
 
 @media screen and (min-width: 940px) {
-  .connect p {
+  .connect {
+    padding-bottom: 6em;
+    p {
     padding-bottom: 2em;
   }
+}
 
   .connect-container {
     display: flex;
