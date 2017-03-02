@@ -189,8 +189,10 @@ p {
       height: auto;
       width: 100%; } }
 @media screen and (min-width: 940px) {
-  .connect p {
-    padding-bottom: 2em; }
+  .connect {
+    padding-bottom: 6em; }
+    .connect p {
+      padding-bottom: 2em; }
 
   .connect-container {
     display: flex;
@@ -221,6 +223,7 @@ p {
   align-items: center;
   margin: 0; }
   .footer h1 {
+    color: white;
     font-size: 18px; }
 
 #nav-container > nav > ul {
