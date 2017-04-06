@@ -103,7 +103,7 @@ p {
 .carousel-cell {
   width: 66%;
   /* full width */
-  height: 300px;
+  height: auto;
   /* height of carousel */
   margin-right: 10px; }
   .carousel-cell img {
@@ -118,7 +118,7 @@ p {
 
 #creative h2 {
   font-size: 18px;
-  margin: 4em 0 0; }
+  margin: 6em 0 0; }
 
 .connect {
   background-color: #F3F3F3;
@@ -182,7 +182,7 @@ p {
   .carousel-cell {
     width: 66%;
     /* full width */
-    height: 500px;
+    height: auto;
     /* height of carousel */
     margin-right: 10px; }
     .carousel-cell img {
@@ -208,7 +208,7 @@ p {
   .carousel-cell {
     width: 66%;
     /* full width */
-    height: 700px;
+    height: auto;
     /* height of carousel */
     margin-right: 10px; }
     .carousel-cell img {
