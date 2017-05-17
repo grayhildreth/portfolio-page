@@ -100,15 +100,10 @@ p {
 .main-carousel {
   margin-top: 2em; }
 
-.carousel-cell {
-  width: 66%;
-  /* full width */
-  height: auto;
-  /* height of carousel */
+.carousel img {
+  display: block;
+  height: 200px;
   margin-right: 10px; }
-  .carousel-cell img {
-    height: auto;
-    width: 100%; }
 
 .music {
   margin: 2em;
@@ -179,15 +174,8 @@ p {
       margin: 0 2em;
       max-width: 300px; }
 
-  .carousel-cell {
-    width: 66%;
-    /* full width */
-    height: auto;
-    /* height of carousel */
-    margin-right: 10px; }
-    .carousel-cell img {
-      height: auto;
-      width: 100%; } }
+  .carousel img {
+    height: 400px; } }
 @media screen and (min-width: 940px) {
   .connect {
     padding-bottom: 6em; }
@@ -204,16 +192,6 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center; } }
-@media screen and (min-width: 1140px) {
-  .carousel-cell {
-    width: 66%;
-    /* full width */
-    height: auto;
-    /* height of carousel */
-    margin-right: 10px; }
-    .carousel-cell img {
-      height: auto;
-      width: 100%; } }
 .footer {
   display: flex;
   width: 100%;
